@@ -1,0 +1,65 @@
+.card{
+    background: #232323;
+    color:#fff;
+    margin-bottom: 20px;
+    box-shadow: none;
+}
+.imgContainer {
+    position: relative;
+}
+.showDate {
+    position: absolute;
+    right: 10px;
+    background: #13c688;
+    border-radius: 50%;
+    z-index: 9;
+    font-size: 10px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    top: 10px;
+}
+.showDate div {
+    line-height: normal;
+}
+.votingPanel {
+    position: absolute;
+    right: 10px;
+    bottom: 14px;
+    font-size: 12px;
+}
+p.movieTitle {
+    font-size: 13px;
+}
+
+  .playareana{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    height: 100%;
+    width:100%;
+    background: rgba(0,0,0,0.4)
+  }
+  .playbtn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 99;
+    width: 48px;
+    text-align: center;
+    height: 48px;
+    margin-top: -24px;
+  }
+  .votingPanel i {
+    margin-right: 5px;
+    color:#13c688;
+}
+.ratingperc{
+    font-size: 14px;
+}

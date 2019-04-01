@@ -1,0 +1,101 @@
+
+.griddescwrapper{
+    background:url('/assets/gradient.jpeg');
+    width:100%;
+    background-size: cover;
+    height:100%;
+    padding: 20px 0px;
+}
+
+span.tag {
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 32px;
+    font-size: 10px;
+    line-height: normal;
+    color:grey;
+    height: auto;
+    padding: 6px 10px;
+}
+p.language {
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 5px 0px 14px;
+}
+.voting ,.release{
+    font-size: 10px;
+}
+.lowerItem {
+    margin-left: 15px;
+}
+.voting i,.release i {
+    color:#fff;
+    margin-right: 5px;
+}
+.noMargin.tags{
+    margin-bottom:6px
+}
+.is-vertical-center{
+    display: flex;
+    justify-content: center;
+}
+
+.liked .text-center {
+    border: 1px solid #13c688;
+    text-align: center;
+    padding: 6px 10px;
+    color: #13c688;
+    border-radius: 50%;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.maybe .text-center {
+    border: 1px solid orange;
+    text-align: center;
+    padding: 6px 10px;
+    color: orange;
+    border-radius: 50%;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+
+.dontlike .text-center {
+    border: 1px solid red;
+    text-align: center;
+    padding: 6px 10px;
+    color: red;
+    border-radius: 50%;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.greenTxt {
+    color: #13c688;
+}
+.orangeTxt {
+    color: orange;
+}
+.red {
+    color: red;
+}
+.totalwtached{
+    font-size: 8px;
+    text-align: center;
+    margin-top: 6px;
+}
+.videodetail{
+    position: relative
+}
+.ratingVotes{
+    position: absolute;
+    bottom: 20px;
+    left:0;
+    right:0
+}

@@ -1,0 +1,10 @@
+select {
+  -webkit-appearance: none;
+  width: 100px;
+  border-radius: 3px;
+  background: transparent;
+  color: #13c688;
+  padding: 4px;
+  border: 1px solid #13c688;
+  margin-top: 12px;
+}
