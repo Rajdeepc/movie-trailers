@@ -1,4 +1,4 @@
-Movie DataBase with React Hooks(React 16.8.0)
+Movie DataBase with React Hooks(React 16.8.0)<br>
 CSS framework used: Bulma (https://bulma.io)
 
 
