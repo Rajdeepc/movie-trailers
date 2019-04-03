@@ -1,4 +1,5 @@
-Movie DataBase with React Hooks(React v
+Movie DataBase with React Hooks(React 16.8.0)
+CSS framework used: Bulma (https://bulma.io)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
