@@ -1,20 +1,21 @@
 import React, { forwardRef } from 'react';
 import { DropdownComponent } from './dropdown';
 import './navbar.css';
+import { GiFilmProjector } from "react-icons/gi";
 
 
 export const NavBar = forwardRef((props, ref) => {
+
+    const onListenValueFromDropdown = (value) => {
+        props.getDropdownValue(value)
+    }
+
+
     return (
         <nav className="navbar bookmyshow-navbar is-fixed-top is-black" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <a className="navbar-item" href="https://bulma.io">
-                    Book My Show
-                </a>
-
-                <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
+                <a className="navbar-item" href="#">
+                    <GiFilmProjector size={28} /> &nbsp; U-Trailers
                 </a>
             </div>
             <div id="navbarBasicExample" className="navbar-menu">
@@ -23,12 +24,12 @@ export const NavBar = forwardRef((props, ref) => {
                         <div className="bookmyTabs tabs is-toggle">
                             <ul>
                                 <li className="is-active">
-                                    <a>
+                                    <a href="#" >
                                         <span>COMING SOON</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a>
+                                    <a href="#" > 
                                         <span>NOW SHOWING</span>
                                     </a>
                                 </li>
@@ -38,7 +39,7 @@ export const NavBar = forwardRef((props, ref) => {
                 </div>
                 <div className="navbar-end">
                     <div >
-                        <DropdownComponent dropdownData={props.languageList} />
+                        <DropdownComponent dropdownData={props.languageList} valueFromDropdown={onListenValueFromDropdown}/>
                     </div>
                 </div>
             </div>

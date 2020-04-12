@@ -3,8 +3,9 @@ select {
   width: 100px;
   border-radius: 3px;
   background: transparent;
-  color: #13c688;
+  color: #B9090B;
   padding: 4px;
-  border: 1px solid #13c688;
+  border: 1px solid #B9090B;
   margin-top: 12px;
+  font-size: 14px;
 }

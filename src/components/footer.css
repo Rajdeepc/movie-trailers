@@ -1,0 +1,44 @@
+.footer-header{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.social{
+    list-style-type: none;
+    margin:0;
+    overflow: auto;
+}
+.social li {
+    float: left;
+    margin-right: 10px;
+   
+}
+.cpyrights li {
+    margin-top: 0px;
+}
+.social li a {
+    color: #7d7d7d;
+}
+.column ul li {
+    font-size: 14px;
+    color: #7d7d7d;
+    margin-top: 6px;
+}
+.name{
+    color: #B9090B;
+}
+.cpyrights{
+    margin-bottom: 10px;
+}
+.utrailer-button{
+    background: #B9090B;
+    color: #fff;
+    border-color: #B9090B;
+}
+.column input {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #7d7d7d;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: none;
+}

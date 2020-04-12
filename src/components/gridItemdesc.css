@@ -1,12 +1,21 @@
 
 .griddescwrapper{
-    background:url('/assets/gradient.jpeg');
+    background:#232323;
     width:100%;
-    background-size: cover;
     height:100%;
     padding: 20px 0px;
 }
-
+.videoDetailsrow{
+    overflow: auto;
+}
+.videoDetailsrow h4 {
+    float: left;
+}
+.videoDetailsrow a {
+    float: right;
+    font-size: 18px;
+    color: #7d7d7d;
+}
 span.tag {
     background: transparent;
     border: 1px solid grey;
@@ -18,15 +27,15 @@ span.tag {
     padding: 6px 10px;
 }
 p.language {
-    font-size: 10px;
+    font-size: 12px;
     text-transform: uppercase;
     margin: 5px 0px 14px;
 }
 .voting ,.release{
-    font-size: 10px;
+    font-size: 12px;
 }
 .lowerItem {
-    margin-left: 15px;
+    margin-left: 18px;
 }
 .voting i,.release i {
     color:#fff;
@@ -41,10 +50,10 @@ p.language {
 }
 
 .liked .text-center {
-    border: 1px solid #13c688;
+    border: 1px solid limegreen;
     text-align: center;
     padding: 6px 10px;
-    color: #13c688;
+    color: limegreen;
     border-radius: 50%;
     border-radius: 30px;
     width: 40px;
@@ -77,7 +86,7 @@ p.language {
     margin: 0 auto;
 }
 .greenTxt {
-    color: #13c688;
+    color: limegreen;
 }
 .orangeTxt {
     color: orange;
@@ -86,16 +95,18 @@ p.language {
     color: red;
 }
 .totalwtached{
-    font-size: 8px;
+    font-size: 10px;
     text-align: center;
     margin-top: 6px;
 }
 .videodetail{
     position: relative
 }
-.ratingVotes{
-    position: absolute;
-    bottom: 20px;
-    left:0;
-    right:0
+@media screen and (min-width: 769px){
+    .ratingVotes{
+        position: absolute;
+        bottom: 20px;
+        left:0;
+        right:0
+    }
 }

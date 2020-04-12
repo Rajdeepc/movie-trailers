@@ -6,14 +6,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #232323;
-  color:#fff
+  color:#fff;
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.gridWrapper{
-  padding: 25px;
-  padding-top: 78px;
+@media screen and (min-width:768px){
+  .gridWrapper{
+    padding: 25px;
+    padding-top: 78px;
+  }
 }
+@media screen and (max-width:767px){
+  .gridWrapper{
+    padding: 25px;
+    padding-top: 78px;
+  }
+}
+

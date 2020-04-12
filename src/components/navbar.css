@@ -10,8 +10,8 @@
     color: #fff;
 }
 .tabs.is-toggle li.is-active a{
-    background: #13c688;
-    border-color:#13c688;
+    background: #B9090B;
+    border-color:#B9090B;
     border-radius: 3px;
 }
 .bookmyTabs.tabs.is-toggle li:last-child a {
@@ -23,3 +23,11 @@
     top: 0;
     padding: 0px 20px;
 }
+@media screen and (max-width: 767px){
+    .navbar-menu{
+        display: block;
+        background-color: #0a0a0a;
+      }
+}
+
+  
