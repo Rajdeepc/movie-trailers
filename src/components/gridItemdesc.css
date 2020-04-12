@@ -99,14 +99,12 @@ p.language {
     text-align: center;
     margin-top: 6px;
 }
-.videodetail{
-    position: relative
+.videoDetails{
+    position: relative;
+    height: 100%;
 }
-@media screen and (min-width: 769px){
-    .ratingVotes{
-        position: absolute;
-        bottom: 20px;
-        left:0;
-        right:0
-    }
+.ratingVotes.columns {
+    position: absolute;
+    width: 100%;
+    bottom: 15px;
 }
