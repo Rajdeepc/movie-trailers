@@ -1,30 +1,24 @@
-# U-Trailers
+# A Movie Trailers App using [React.js](https://reactjs.org)
 
-A React JS Project with Suspense to show latest trailers of upcoming movies.
+> **This application is to show list of movie trailers based on the movie language and where users will be able to switch to different languages and see the trailers of the list of uplcoming movie titles**
 
-### Project setup
-```
-npm install
-```
+**This is a very basic app but useful to understand the React Functional Components, Suspense, Lazy, useEffect and useState Hooks .**
 
-### Compiles and hot-reloads for development
-```
-npm run start
-```
-### Project Stack:
- * React JS
- * Suspense
- * Lazy
- * Bulma CSS Framework
+## Live URL :-
 
- Please feel free to contribute. Raise a PR and send me over for a review.
+> [Movie Trailers App](http://react-trailers.surge.sh/)
 
-If you would like to donate to this project so that i can give dedicated time to scale this below is the link:
+**OR your can do the following to run in your local machine**
 
-Check it out:
-![image](trailers.png)
+## Scripts
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](rajrock38@gmail.com)
+Install node modules
 
-Built-with: React Hooks, Suspense API, Bulma CSS Framework
- 
+#### `npm install`
+
+In the project directory, you can run:
+
+#### `npm start`
+
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
