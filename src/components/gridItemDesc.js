@@ -17,8 +17,8 @@ export const GridItemDesc = (props) => {
   };
   return (
     <div className="griddescwrapper">
-      <div className="columns is-mobile">
-        <div className="column">
+      <div className="columns">
+        <div className="column is-full-mobile">
           <iframe
             width="100%"
             height="315"
@@ -28,7 +28,7 @@ export const GridItemDesc = (props) => {
             src={itemDetails.TrailerURL.replace("watch?v=", "embed/")}
           ></iframe>
         </div>
-        <div className="column">
+        <div className="column is-full-mobile">
           <div className="videoDetails">
             <div className="upper">
               <div className="videoDetailsrow">
@@ -68,7 +68,7 @@ export const GridItemDesc = (props) => {
 
             <div className="lower">
               <div className="ratingVotes columns">
-                <div className="column is-4 is-vertical-center text-center">
+                <div className="column is-vertical-center text-center">
                   <div className="liked">
                     <div className="text-center">
                       <i className="far fa-thumbs-up"></i>
@@ -79,7 +79,7 @@ export const GridItemDesc = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="column is-vertical-center is-4 text-center">
+                <div className="column is-vertical-center text-center">
                   <div className="maybe">
                     <div className="text-center">
                       <i className="fas fa-question"></i>
@@ -90,7 +90,7 @@ export const GridItemDesc = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="column is-4 is-vertical-center text-center">
+                <div className="column is-vertical-center text-center">
                   <div className="dontlike">
                     <div className="text-center">
                       <i className="far fa-thumbs-down"></i>
